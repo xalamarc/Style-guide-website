@@ -1,0 +1,177 @@
+/* font-family: 'Montserrat', sans-serif; */
+/*font-family: 'Spartan', sans-serif;*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+ul,
+li {
+  list-style: none;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  padding-left: 190px;
+}
+.colors {
+  border: 1px solid rgb(83, 83, 83);
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.colors h3 {
+  padding: 20px;
+}
+
+.colors ul li {
+  display: inline-block;
+  width: 20%;
+  height: 60px;
+  background-color: red;
+  margin: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.colors ul li:nth-child(1) {
+  background-color: #1a4645 !important;
+  color: #fff;
+}
+.colors ul li:nth-child(2) {
+  background-color: #266867 !important;
+  color: #fff;
+}
+.colors ul li:nth-child(3) {
+  background-color: #f58800 !important;
+  color: #fff;
+}
+.colors ul li:nth-child(4) {
+  background-color: #f8bc24 !important;
+  color: #fff;
+}
+
+.fonts {
+  border: 1px solid #333;
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+  position: relative;
+}
+
+.fonts h3 {
+  padding: 20px;
+}
+.fonts ul {
+  display: inline-block;
+}
+.fonts-one {
+  font-family: 'Spartan', sans-serif;
+  padding: 20px;
+  position: relative;
+  width: 40%;
+}
+.fonts-one li {
+  padding: 10px;
+}
+.fonts-one li:nth-child(1) {
+  text-decoration: underline;
+  font-weight: 900;
+}
+.fonts-one li:nth-child(2) {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.fonts-one li:nth-child(3) {
+  font-size: 0.8;
+  font-weight: bolder;
+}
+.fonts-one li:nth-child(4) {
+  font-size: 0.8;
+  font-weight: normal;
+}
+
+.fonts-two {
+  padding: 20px;
+  position: absolute;
+  width: 40%;
+}
+
+.fonts-two li {
+  padding: 10px;
+}
+.fonts-two li:nth-child(1) {
+  text-decoration: underline;
+  font-weight: 900;
+}
+.fonts-two li:nth-child(2) {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.fonts-two li:nth-child(3) {
+  font-size: 0.8;
+  font-weight: bolder;
+}
+.fonts-two li:nth-child(4) {
+  font-size: 0.8;
+  font-weight: normal;
+}
+.text-styles {
+  border: 1px solid #333;
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+  position: relative;
+}
+
+.text-styles h3 {
+  padding: 20px;
+}
+
+.style-title {
+  margin-left: 20px;
+}
+.style-title h1,
+ul,
+li {
+  padding: 10px;
+}
+.style-title ul li {
+  font-size: 0.8rem;
+}
+
+.style-subtitle {
+  margin-left: 20px;
+}
+.style-subtitle h1,
+ul,
+li {
+  padding: 10px;
+}
+.style-subtitle ul li {
+  font-size: 0.8rem;
+}
+
+.style-paragraph {
+  margin-left: 20px;
+}
+.style-paragraph p,
+ul,
+li {
+  padding: 10px;
+}
+.style-paragraph ul li {
+  font-size: 0.8rem;
+}
